@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bitfinex-api-node": "^5.0.4",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1"
+  },
+  "name": "blockchain-test-api",
+  "description": "Blockchain test for Rather Labs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon -r dotenv/config src/index.js -e js,hbs,css",
+    "test": "jest --watch --runInBand"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frannbian/blockchain-test-api.git"
+  },
+  "author": "Franco Bianco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frannbian/blockchain-test-api/issues"
+  },
+  "homepage": "https://github.com/frannbian/blockchain-test-api#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
